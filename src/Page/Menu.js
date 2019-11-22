@@ -8,18 +8,9 @@ import React, { Component } from 'react'
 // import Modal from './Modal.jsx'
 // import MakeChannelModal from './MakeChannelModal.jsx'
 // import '../App.css'
-import PlayMusic from '../Music/The Untamed.mp3'
-import styled from 'styled-components';
-import slider from '../components/Slider'
-import Slider from '../components/Slider';
-import { read } from 'fs';
-import { get, post, ip } from './new'
 import PizzicatoRecorder from 'pizzicato-recorder'
 import Pizzicato from 'pizzicato'
 import { withRouter, NavLink, Link } from 'react-router-dom'
-import Show from './Show';
-import { Spinner } from 'reactstrap';
-import txt from './txt-file.png'
 import wav from './wav-file.png'
 
 
