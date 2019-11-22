@@ -1,0 +1,196 @@
+/* App.css 2 */
+
+.App {
+  /* background-image: url("https://wallpapercave.com/wp/wp2700986.jpg"); */
+  text-align: center;
+  font-size: center;
+  height: 1000px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 25px;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  background-color:white;
+  width: 200px;
+  height: 50px;
+  margin-right: 10px;
+  color: black;
+}
+
+button:hover{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  background:yellow;
+  color: black;
+  width: 200px;
+  height: 50px;
+  margin-right: 10px;
+  
+}
+
+
+input{
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.Box{
+  width: 1000px;
+  height: 400px;
+  background : rgba(183, 175, 255, 0.692);
+  margin-bottom: 50vh;
+  margin-top: 20vh;
+  margin-left: 200px;
+  margin-right: 100px;
+  border-radius: 30px;
+  text-align: center;
+}
+.slidecontainer {
+  width: 50%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  text-align: center;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+input[type="number"]{
+  width: 15%;
+}
+
+input[type="range"]{
+  width: 50%;
+}
+
+h1{
+  text-align: center;
+  text-transform:uppercase;
+  color:white;
+  text-indent:60px;
+  width: center;
+  height: 50px;
+  
+  text-decoration: none;
+  
+}
+
+nav{
+  text-align: center;
+  font-size: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 80px;
+
+}
+
+.Page2{
+  background-image: url("./Music/icon.png");
+  text-align: center;
+  font-size: center;
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 430px;
+  
+  
+}
+
+.Thebox{
+width: 1000px;
+  height: 500px;
+  background : rgba(183, 175, 255, 0.692);
+  margin-bottom: 50vh;
+  margin-top: 10vh;
+  margin-left: 200px;
+  margin-right: 100px;
+  border-radius: 30px;
+  text-align: center;
+
+}
+
+.Bottom{
+  text-align: center;
+  font-size: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 80px;
+
+}
